@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunkeDekho - Street Testing & Idea Validation Service | Test Your Ideas with Real People</title>
+    <meta name="description" content="SunkeDekho helps entrepreneurs validate their ideas on the streets. Share your idea, pick a place - we hit the streets and get you honest feedback. Test it, refine it, own it.">
+    <meta name="keywords" content="idea validation, street testing, market research, startup validation, product testing, customer feedback, business idea testing, market validation, street research, idea testing service">
+    <meta name="author" content="SunkeDekho">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="SunkeDekho - Street Testing & Idea Validation Service">
+    <meta property="og:description" content="Test your ideas with real people on the streets. Get honest feedback and validate your business concepts before launch.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sunkedekho.com">
+    <meta property="og:site_name" content="SunkeDekho">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SunkeDekho - Street Testing & Idea Validation Service">
+    <meta name="twitter:description" content="Test your ideas with real people on the streets. Get honest feedback and validate your business concepts before launch.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://sunkedekho.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "SunkeDekho",
+        "url": "https://sunkedekho.com",
+        "description": "Street testing and idea validation service that helps entrepreneurs test their ideas with real people",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+919609306014",
+            "contactType": "customer service",
+            "availableLanguage": "English"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bengaluru",
+            "addressCountry": "IN"
+        },
+        "sameAs": [
+            "https://sunkedekho.com"
+        ]
+    }
+    </script>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="brand-icon">
+                    <i class="fas fa-street-view"></i>
+                </div>
+                <span class="brand-text">SunkeDekho</span>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="nav-cta" onclick="openWhatsApp()">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>Get Started</span>
+                </button>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Share your idea, pick a place — 
+                    <span class="highlight">we hit the streets</span> 
+                    and get you honest feedback.
+                </h1>
+                <p class="hero-subtitle">
+                    You'll launch it one day anyway, so don't hide it. 
+                    <strong>Test it, refine it, own it.</strong>
+                </p>
+                <p class="hero-tagline">
+                    We take away all the shyness, test it, again and again.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToSection('contact')">
+                        <span>Start Testing</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="btn-secondary" onclick="scrollToSection('about')">
+                        <span>Learn More</span>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="visual-card">
+                    <div class="card-header">
+                        <div class="card-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Real Street Feedback</h3>
+                        <p>Get authentic reactions from real people in real places</p>
+                        <div class="feedback-stats">
+                            <div class="stat">
+                                <span class="stat-number">NA%</span>
+                                <span class="stat-label">Accuracy</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">NA</span>
+                                <span class="stat-label">Delivery</span>
+                            </div>
+                        </div>
+                        <div class="beta-badge">
+                            <span>Currently in beta</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">Simple steps to validate your idea with real people</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Share Your Idea</h3>
+                    <p>Tell us about your product, service, or concept. We'll analyze it and create a testing strategy tailored to your needs.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Choose Location</h3>
+                    <p>Pick the perfect spot - malls, streets, parks, or specific venues where your target audience naturally gathers.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Get Real Feedback</h3>
+                    <p>We hit the streets and gather honest, unfiltered feedback from real people. No bias, just genuine market reactions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About SunkeDekho</h2>
+                    <p class="about-description">
+                        SunkeDekho is India's premier street testing and idea validation service. We help entrepreneurs, startups, and businesses validate their concepts with real people in real environments before they invest heavily in development and marketing.
+                    </p>
+                    <p class="about-description">
+                        Whether you're a startup founder, entrepreneur, or established business looking to test a new concept, SunkeDekho provides the real-world validation you need to make confident decisions and avoid costly mistakes.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Real people, real reactions</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Expert street researchers</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Comprehensive feedback reports</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Quick turnaround time</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">0</div>
+                        <div class="stat-label">Ideas Tested</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">1</div>
+                        <div class="stat-label">Cities Covered</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">NA</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">Ready to Test Your Idea?</h2>
+                    <p class="contact-description">
+                        Connect with us on WhatsApp and start your street testing journey today. Get professional idea validation services in Bengaluru and across India.
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>WhatsApp</h4>
+                                <p>Quick responses and easy communication</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Email</h4>
+                                <p>sunkedekhoofficial@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-action">
+                    <div class="whatsapp-card">
+                        <div class="whatsapp-header">
+                            <i class="fab fa-whatsapp"></i>
+                            <h3>Start Your Project</h3>
+                        </div>
+                        <p class="whatsapp-description">Click to connect with us on WhatsApp and begin your street testing journey</p>
+                        <button class="whatsapp-button" onclick="openWhatsApp()">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Chat with SunkeDekho</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fas fa-street-view"></i>
+                        <span>SunkeDekho</span>
+                    </div>
+                    <p>Test it, refine it, own it.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#services">Services</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    
+                    <!-- <div class="footer-column">
+                        <h4>Services</h4>
+                        <a href="#">Idea Validation</a>
+                        <a href="#">Street Testing</a>
+                        <a href="#">Market Research</a>
+                        <a href="#">Product Testing</a>
+                    </div> -->
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 SunkeDekho. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
